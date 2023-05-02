@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header  {
+    background-color: #0f172a;
+    padding: 30px 20px;
+}
+
+.header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__container h3 a {
+    color: rgb(160, 152, 172);
+}
+
+
+.header__container-navbar {
+    display: flex;
+    gap: 1rem;
+}
+
+.header__container-navbar li a {
+    color: white;
+    font-weight: bold;
+}
+
+.courses__title {
+    text-align: center;
+    padding: 50px;
+    font-size: 25pt;
+    color: #0f172a;
+}
+
+.card {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card__header {
+    display: flex;
+    justify-content: center;
+}
+
+.etiqueta {
+    position: relative;
+    right: -350px;
+    top: 10px;
+    background-color: rgb(160, 152, 172);
+    color: white;
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+/* El hover aún no lo hemos estudiado */
+.etiqueta:hover {
+    background-color: green; 
+}
+
+
+.card__title {
+    padding: 10px;
+    color: rgb(160, 152, 172); ;
+}
+
+.card__description {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btn {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(160, 152, 172); 
+    color: #0f172a;
+    border-radius: 30px;
+
+}
+
+.btn a {
+    color: white;
+    font-size: 16px;
+}
+
+.card {
+    padding-bottom: 200px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.whatsapp { 
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+/* Estos atributos no los hemos visto en clase */
+.tooltip {
+    position: absolute;
+    right: 100px;
+    opacity: 0;
+    background-color: rgb(81, 151, 81);
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.whatsapp:hover .tooltip {
+    opacity: 1;
+}
